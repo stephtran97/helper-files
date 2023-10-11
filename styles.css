@@ -14,33 +14,13 @@ html {
   font-size: 16px;
   line-height: 1.6rem;
 }
-svg {
-  width: 20px;
-  transform: translateY(0);
-}
-td {
-  text-align: center;
-}
-table {
-  border-collapse: collapse;
-}
-th,
-td,
-tr {
-  border: 1px solid #000;
-}
-td :last-child {
-  border: none;
-}
-td,
-th {
-  padding: 0.25rem;
-}
 /* Utilities */
+
 /* Text */
 .text-center {
   text-align: center;
 }
+
 /* Color */
 .bg-primary {
   background-color: var(--primary);
@@ -109,9 +89,6 @@ th {
 }
 .grid {
   display: grid;
-}
-.grid-7 {
-  grid-template-columns: repeat(7, 1fr);
 }
 
 /* Spacing */
